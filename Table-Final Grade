@@ -19,141 +19,170 @@
     <th>Final Grade</th>
   </tr>
   <tr>
-    <td  contenteditable="true">Jill</td>
+    <td  contenteditable="true">Jose</td>
     <td contenteditable="true">1276321</td>
-    <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="false"></td>
+    <td   onkeyup="myFunction(this.value)" id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)" id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="false"></td>
   </tr>
   <tr>
-    <td contenteditable="true">Eve</td>
+    <td contenteditable="true">Juan</td>
     <td contenteditable="true">23456</td>
-    <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="false" id ='output'></td> 
+    <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="false" id ='output'></td> 
   </tr>
   <tr>
-    <td contenteditable="true">John</td>
+    <td contenteditable="true">Pablo</td>
     <td contenteditable="true">162963</td>
-   <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="false"></td>
+   <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="false"></td>
   </tr>
   <tr>
-    <td contenteditable="true">Jill</td>
+    <td contenteditable="true">Pedro</td>
     <td contenteditable="true">1276321</td>
-   <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="false"></td>
+   <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="false"></td>
   </tr>
   <tr>
-    <td contenteditable="true"> Jill</td>
+    <td contenteditable="true"> Pancho</td>
     <td contenteditable="true">1276321</td>
-    <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="false"></td>
+    <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="false"></td>
   </tr>
   <tr>
-    <td contenteditable="true">Jill</td>
+    <td contenteditable="true">Maria</td>
     <td contenteditable="true">1276321</td>
-   <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok" contenteditable="false"></td>
+   <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="false"></td>
   </tr>
   <tr>
-    <td contenteditable="true"> Jill</td>
+    <td contenteditable="true"> Jesus</td>
     <td contenteditable="true">1276321</td>
-    <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="false"></td>
+    <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="false"></td>
   </tr>
   <tr>
     
-   <td contenteditable="false">Kyla</td>
+   <td contenteditable="false">Luis</td>
     <td contenteditable="false">129482</td>
-    <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok" contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="false"></td>
+    <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok" contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="false"></td>
   </tr>
   <tr>
-    <td contenteditable="true">Jill</td>
+    <td contenteditable="true">Fernanda</td>
     <td contenteditable="true">1276321</td>
-    <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="false"></td>
+    <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="false"></td>
   </tr>
   <tr>
     <td contenteditable="true">Lola</td>
     <td contenteditable="true">1276321</td>
-    <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="true">-</td>
-     <td id= "ok"contenteditable="false"></td>
-  </tr>
-</table>
+    <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="true">-</td>
+     <td  onkeyup="myFunction(this.value)"id= "ok"contenteditable="false"></td>
+     
+     </tr>
+     </table>
+<BUTTON id= "p2" onclick="myFunction()" > final grade</BUTTON>
 
- <BUTTON id= "p2" onclick="get(table)" > final grade</BUTTON>
-
-
-
+ 
+ 
 </body>
 </html>
 
 
-
 //JavaScript
-function get(table) 
-{
-		var x = document.getElementById("table");
-   
-    
-    var sum = 0;
-    for(var i=0; i<row.x; i++)
-    	for(var j=0; j<column.x; j++)
-        sum += i;
-        
-    sum = 5;    
-    var output = document.getElementById('sum');
-    output.innerHTML = sum;
-    
-   // document.getElementById("demo").innerHTML = sum;
+function myFunction() {
+   var table = document.getElementById("table");
+   var rows = table.rows;
+ 
+   for (var i = 1; i < rows.length; i++) {
+     var cells = rows[i].cells;
+     var sum = 0;
+         var numbers = 0;
+     for (var x = 2; x < (cells.length -1); x++) {
+       var cell = cells[x];
+       var addme = parseInt(cell.innerHTML);
+       if(!isNaN(addme)) {      
+          sum += addme;
+          numbers++;
+       }
+       }
+     
+     var average = sum / numbers;
+     //rows[i].cells[7].innerHTML = "<td>" + Math.round(average) + "</td>";
+     
+     
+     if(average < 40)
+   	{
+   		rows[i].cells[7].innerHTML = "<td>" + Math.round(average) + "</td>";
+      rows[i].cells[7].style.background = "red";
+      rows[i].cells[7].style.color = "#ffffff";
+    	
+   	}
+    else
+    {
+    	rows[i].cells[7].innerHTML = "<td>" + Math.round(average) + "</td>";
+      rows[i].cells[7].style.background = "#ffffff";
+      rows[i].cells[7].style.color = "#000000";
+    }
+   }
+document.getElementById('myFunction').onclick = myFunction;
+
 }
-}
+
+
+
 
 
 
 //CSS
+body {background-color: white;}
 table, th, td {
-   border: 1px solid black;
+    border: 1px solid black
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
 }
 
 #ok {
@@ -176,4 +205,8 @@ table {
     border: 50%;
     color: white;
     font-size: 16px;
+}
+#p2
+{
+ margin:0 auto;
 }
