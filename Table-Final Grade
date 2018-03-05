@@ -1,0 +1,179 @@
+//A table where the user can input their grades for each assingments and the program will output the average final grade
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="p01"> STUDENT FINAL GRADE </h1>
+<table class = "tg" id= "table" style="width:100%">
+
+  <tr>
+    <th> Student Name</th>
+    <th>ID Number</th> 
+    <th>Assignment 1</th>
+    <th>Assignment 2</th>
+    <th>Assignment 3</th>
+    <th>Assignment 4</th>
+    <th>Assignment 5</th>
+    <th>Final Grade</th>
+  </tr>
+  <tr>
+    <td  contenteditable="true">Jill</td>
+    <td contenteditable="true">1276321</td>
+    <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="false"></td>
+  </tr>
+  <tr>
+    <td contenteditable="true">Eve</td>
+    <td contenteditable="true">23456</td>
+    <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="false" id ='output'></td> 
+  </tr>
+  <tr>
+    <td contenteditable="true">John</td>
+    <td contenteditable="true">162963</td>
+   <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="false"></td>
+  </tr>
+  <tr>
+    <td contenteditable="true">Jill</td>
+    <td contenteditable="true">1276321</td>
+   <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="false"></td>
+  </tr>
+  <tr>
+    <td contenteditable="true"> Jill</td>
+    <td contenteditable="true">1276321</td>
+    <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="false"></td>
+  </tr>
+  <tr>
+    <td contenteditable="true">Jill</td>
+    <td contenteditable="true">1276321</td>
+   <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok" contenteditable="false"></td>
+  </tr>
+  <tr>
+    <td contenteditable="true"> Jill</td>
+    <td contenteditable="true">1276321</td>
+    <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="false"></td>
+  </tr>
+  <tr>
+    
+   <td contenteditable="false">Kyla</td>
+    <td contenteditable="false">129482</td>
+    <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok" contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="false"></td>
+  </tr>
+  <tr>
+    <td contenteditable="true">Jill</td>
+    <td contenteditable="true">1276321</td>
+    <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="false"></td>
+  </tr>
+  <tr>
+    <td contenteditable="true">Lola</td>
+    <td contenteditable="true">1276321</td>
+    <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="true">-</td>
+     <td id= "ok"contenteditable="false"></td>
+  </tr>
+</table>
+
+ <BUTTON id= "p2" onclick="get(table)" > final grade</BUTTON>
+
+
+
+</body>
+</html>
+
+
+
+//JavaScript
+function get(table) 
+{
+		var x = document.getElementById("table");
+   
+    
+    var sum = 0;
+    for(var i=0; i<row.x; i++)
+    	for(var j=0; j<column.x; j++)
+        sum += i;
+        
+    sum = 5;    
+    var output = document.getElementById('sum');
+    output.innerHTML = sum;
+    
+   // document.getElementById("demo").innerHTML = sum;
+}
+}
+
+
+
+//CSS
+table, th, td {
+   border: 1px solid black;
+}
+
+#ok {
+    text-align: right;
+}
+table {
+    font-family: "sans serif";
+}
+#p01 {
+   text-align: center;
+}
+#p2 {
+  text-align: center;
+   display:block
+   
+}
+#p2 {
+    text-align: center;
+    background-color: #008CBA; 
+    border: 50%;
+    color: white;
+    font-size: 16px;
+}
